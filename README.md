@@ -6,4 +6,5 @@ Made with C# Razor and ADO.NET Framework
 - Ecommerce e' appunto il programma che permettera' di avviare la Web Application
 
 Il progetto contiene diverse funzionalita' ed e' una versione iniziale
+
 Enjoy! 
