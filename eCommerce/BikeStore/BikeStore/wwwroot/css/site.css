@@ -1,0 +1,264 @@
+:root {
+    --myOrange: #ea640c;
+    --montserrat: "Montserrat", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --lato: "Lato", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1600px) {
+    .container-xxl .container-xl {
+        max-width: 1500px;
+    }
+}
+
+@media (min-width: 1800px) {
+    .container-xxl {
+        max-width: 1680px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    height: 100vh;
+    padding-bottom: 60px;
+    font-family: var(--lato);
+}
+
+.h1 .h2 .h3 .h4 .h5 .h6 {
+    font-family: var(--montserrat);
+}
+
+.font-header {
+    font-family: var(--montserrat);
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.font-p {
+    font-family: var(--lato);
+}
+
+.h-80vh {
+    min-height: 80vh;
+}
+
+main {
+    min-height: 80vh;
+    position: relative;
+}
+
+.card img {
+    width: 250px;
+    height: auto;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.form-signin .checkbox {
+    font-weight: 400;
+}
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black
+}
+
+.bg-white-ridr {
+    color: var(--myOrange) !important;
+    background-color: white !important;
+    border: 2px solid var(--myOrange) !important;
+}
+.bg-orange-ridr {
+    background-color: var(--myOrange) !important;
+    color: white !important;
+}
+.button-ridr-gl {
+    color: var(--myOrange) !important;
+    background-color: transparent !important;
+    border: 2px solid var(--myOrange) !important;
+}
+.button-ridr-white{
+    color:var(--myOrange) !important; 
+    background-color:white !important;
+    border: 2px solid var(--myOrange) !important;
+}
+.button-ridr-gl:hover {
+    color: white !important;
+    background-color: var(--myOrange) !important;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+}
+.button-ridr-white:hover{
+    color: white !important;
+    background-color: var(--myOrange) !important;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+}
+.button-ridr-sm{
+    appearance: none;
+    background-color: var(--myOrange);
+    border: 2px solid var(--myOrange);
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: 600;
+    line-height: normal;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+}
+.button-ridr {
+    appearance: none;
+    background-color: var(--myOrange);
+    border: 2px solid var(--myOrange);
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 22px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    min-height: 60px;
+    min-width: 0;
+    outline: none;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 100%;
+    will-change: transform;
+}
+.button-ridr:disabled .button-ridr-sm:disabled {
+    pointer-events: none;
+}
+.button-ridr:hover .button-ridr-sm:hover {
+    color: var(--myOrange);
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+}
+.button-ridr:active .button-ridr-sm:active{
+    box-shadow: none;
+    transform: translateY(0);
+}
+
+.bg-grey {
+    background-color: #e9e9e9;
+}
+
+
+  .b-example-divider {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.dropdown-toggle { outline: 0; }
+
+.nav-flush .nav-link {
+  border-radius: 0;
+}
+
+.btn-toggle {
+  display: inline-flex;
+  align-items: center;
+  padding: .25rem .5rem;
+  font-weight: 600;
+  color: white;
+  background-color: transparent;
+  border: 0;
+}
+.btn-toggle:hover,
+.btn-toggle:focus {
+  color: white;
+  background-color: var(--myOrange);
+}
+
+.btn-toggle::before {
+  width: 1.25em;
+  line-height: 0;
+  content: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='rgba(255,255,255, 1)' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 14l6-6-6-6'/%3e%3c/svg%3e");
+  transition: transform .35s ease;
+  transform-origin: .5em 50%;
+}
+
+.btn-toggle[aria-expanded="true"] {
+  color: rgba(255, 255, 255, 0.877);
+}
+.btn-toggle[aria-expanded="true"]::before {
+  transform: rotate(90deg);
+}
+
+.btn-toggle-nav a {
+  display: inline-flex;
+  padding: .1875rem .5rem;
+  margin-top: .125rem;
+  margin-left: 1.25rem;
+  text-decoration: none;
+}
+.btn-toggle-nav a:hover,
+.btn-toggle-nav a:focus {
+  background-color: var(--myOrange);
+}
+
+.scrollarea {
+  overflow-y: auto;
+}
+
+.fw-semibold { font-weight: 600; }
+.lh-tight { line-height: 1.25; }
+
+.form-check-input:checked {
+    background-color: var(--myOrange);
+    border-color: var(--myOrange);
+}

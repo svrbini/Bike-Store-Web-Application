@@ -1,0 +1,179 @@
+﻿@page
+@using BikeStore.Models
+@model BikeStore.Pages.ProductsPageModel
+@{
+}
+
+
+<div class="px-3 py-2 border-bottom mb-3">
+    <div class="container d-flex flex-wrap justify-content-center">
+        <button type="button" class="px-3 btn button-ridr-white button-ridr-sm  rounded-pill me-5" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><i class="bi bi-filter me-2"></i>Filters</button>
+        
+        <!--Offcanvas-->
+        <div style="width:280px; margin-top:82px" class="offcanvas offcanvas-start bg-dark text-light py-2" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasScrollingLabel"><i class="me-2 bi bi-filter"></i>Filters</h5>
+                <button type="button" class="btn button-ridr-sm button-ridr-gl justify-content-center button text-reset" data-bs-dismiss="offcanvas" aria-label="Close"><i class="bi bi-x-lg"></i></button>
+            </div>
+            <div class="offcanvas-body">
+
+
+                <ul class="list-unstyled ps-0">
+                    <li class="mb-1">
+                        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+                            Categories
+                        </button>
+                        <div class="collapse show" id="home-collapse">
+                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                @foreach (string item in Model.Categories)
+                                {
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id=@item>
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            @item
+                                        </label>
+                                    </div>
+                                }
+                            </ul>
+                        </div>
+                    </li>
+                    <hr>
+                    <li class="mb-1">
+                        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse1" aria-expanded="true">
+                            Brands
+                        </button>
+                        <div class="collapse show" id="home-collapse1">
+                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                @foreach (string item in Model.Brands)
+                                {
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id=@item>
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            @item
+                                        </label>
+                                    </div>
+                                }
+                            </ul>
+                        </div>
+                    </li>
+                    <hr>
+                    <li class="mb-1">
+                        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse2" aria-expanded="true">
+                            Availability
+                        </button>
+                        <div class="collapse show" id="home-collapse2">
+                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                @foreach (string item in Model.Stores)
+                                {
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id=@item>
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            @item
+                                        </label>
+                                    </div>
+                                }
+                            </ul>
+                        </div>
+                    </li>
+                    <hr>
+                    <li class="mb-1">
+                        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse3" aria-expanded="true">
+                            Price
+                        </button>
+                        <div class="collapse show" id="home-collapse3">
+                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                    <label class="form-check-label" for="flexRadioDefault1">
+                                        5000€+
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                                    <label class="form-check-label" for="flexRadioDefault2">
+                                        2500-5000€
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
+                                    <label class="form-check-label" for="flexRadioDefault3">
+                                        1000-2500€
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
+                                    <label class="form-check-label" for="flexRadioDefault3">
+                                        500-1000€
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4">
+                                    <label class="form-check-label" for="flexRadioDefault4">
+                                        0-500€
+                                    </label>
+                                </div>
+                            </ul>
+                        </div>
+                    </li>
+                    
+                    <li class="border-top my-3"></li>
+                </ul>
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+                    <label class="form-check-label" for="flexSwitchCheckChecked">Show items out of stock</label>
+                </div>
+
+
+                <!--Default Store & button-->
+
+
+            </div>
+        </div>
+        <form method="post" asp-page-handler="Search" class="col-12 col-lg-auto mb-2 mb-lg-0 me-lg-auto d-flex">
+            <input type="search" class="form-control rounded-pill" placeholder="Search..." aria-label="Search" asp-for="@Model.SrcParameter">
+            <button type="submit" class="btn button-ridr-sm rounded-pill"><i class="bi bi-search"></i></button>
+        </form>
+
+        <div class="text-end ">
+            <form method="post" asp-page-handler="Select" id="orderCriteria">
+                <select asp-for="@Model.OrderCriteria" onchange="submitForm()" class="form-select d-flex rounded-pill" aria-label="Default select example">
+                    <option selected>Most Recent</option>
+                    <option value="1">Least Recent</option>
+                    <option value="2">Price (highest to lowest)</option>
+                    <option value="3">Price (lowest to highest)</option>
+                
+                </select>
+            </form>
+
+            @section Scripts {
+                <script>
+                    function submitForm() {
+                        document.getElementById('orderCriteria').submit();
+                    }
+                </script>
+            }
+        </div>
+    </div>
+</div>
+
+<div class="row row-cols-1 row-cols-md-4 g-4">
+	@foreach(Product prd in Model.Products)
+	{
+        <div class="col">
+            <div class="card h-100">
+                <div class="p-3 bg-grey">
+                    <img class="card-img-top img-fluid d-block m-auto" src=@prd.ImgLink>
+                </div>
+                <div class="card-body mt-3 px-3">
+                    <p class="text-secondary card-text mb-2">@prd.Brand</p>
+                    <h5 class="card-title">@prd.GetShortName()</h5>
+                    <p class="card-text">@prd.Price €</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">@prd.Category</small>
+                </div>
+                <a class="stretched-link" asp-page-handler="Buy" asp-route-id="@prd.Id"></a>
+            </div>
+        </div>
+	}
+</div>

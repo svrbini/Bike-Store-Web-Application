@@ -1,0 +1,26 @@
+/*select the store with the most stock
+
+cmd.CommandText = "select store_id, quantity " +
+    "from stocks " +
+    "where product_id = @id AND quantity=" +
+    "(select MAX(quantity) " +
+    "from stocks " +
+    "where product_id = @id)";
+cmd.Parameters.AddWithValue("@id", UserId.ToString());
+int store = (int)cmd.ExecuteScalar();
+
+ */
+
+
+//order
+cmd.CommandText = "INSERT INTO orders (customer_id, order_status,order_date, required_date, store_id, staff_id) " +
+    "VALUES ( @id, 2, @ord_date, @req_date, @store, 1)";
+cmd.Parameters.AddWithValue("@store", store);
+cmd.Parameters.AddWithValue("@ord_date", DateTime.Now);
+cmd.Parameters.AddWithValue("@req_date", DateTime.Now.AddDays(3));
+cmd.ExecuteNonQuery();
+
+
+//Retrieve the last identity value generated in the current session and scope
+cmd.CommandText = "SELECT SCOPE_IDENTITY()";
+int ord_id = (int)cmd.ExecuteScalar(); 	

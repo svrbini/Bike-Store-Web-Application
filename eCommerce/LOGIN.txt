@@ -1,0 +1,9 @@
+LOGIN:
+- aggiungere una password all'entità customer
+- impostare una pw per ogni customer
+- cifrare pw (md5) e cifrare con programma in console
+- sito di ecommerce
+	- login logout
+	- vedere le biciclette
+		-dettagli
+	-selezionare e aggiungere a carrello

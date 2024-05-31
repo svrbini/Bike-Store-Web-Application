@@ -1,0 +1,71 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BikeStore
+build_property.RootNamespace = BikeStore
+build_property.ProjectDir = D:\RAZOR\eCommerce\BikeStore\BikeStore\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\RAZOR\eCommerce\BikeStore\BikeStore
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/RAZOR/eCommerce/BikeStore/BikeStore/Pages/Cart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/RAZOR/eCommerce/BikeStore/BikeStore/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/RAZOR/eCommerce/BikeStore/BikeStore/Pages/oldbs/AddNewCustomer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcb2xkYnNcQWRkTmV3Q3VzdG9tZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/RAZOR/eCommerce/BikeStore/BikeStore/Pages/oldbs/Customers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcb2xkYnNcQ3VzdG9tZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/RAZOR/eCommerce/BikeStore/BikeStore/Pages/oldbs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcb2xkYnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/RAZOR/eCommerce/BikeStore/BikeStore/Pages/other/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcb3RoZXJcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/RAZOR/eCommerce/BikeStore/BikeStore/Pages/other/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcb3RoZXJcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/RAZOR/eCommerce/BikeStore/BikeStore/Pages/ProductsPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHNQYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/RAZOR/eCommerce/BikeStore/BikeStore/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/RAZOR/eCommerce/BikeStore/BikeStore/Pages/SingleItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2luZ2xlSXRlbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/RAZOR/eCommerce/BikeStore/BikeStore/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/RAZOR/eCommerce/BikeStore/BikeStore/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/RAZOR/eCommerce/BikeStore/BikeStore/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-6m62idn15l

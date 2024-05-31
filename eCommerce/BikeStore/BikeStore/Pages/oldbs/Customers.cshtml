@@ -1,0 +1,146 @@
+﻿@page
+@model BikeStore.Pages.CustomersModel
+@{
+    ViewData["Title"] = "Clienti";
+}
+
+
+<div class="py-5 text-center">
+    <img class="d-block mx-auto mb-4" src="data:image/png;base64,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" alt="" width="72" height="72">
+    <h2>Clienti</h2>
+    <p class="lead">[descrizione]</p>
+</div>
+
+
+    
+<div class="row">
+<form class="col-sm-6 card card-sm" method="post" asp-page-handler = "Ricerca">
+    <div class="card-body row no-gutters align-items-center">
+        <div class="col-auto">
+            <i class="fas fa-search h4 text-body"></i>
+        </div>
+        <!--end of col-->
+        <div class="col">
+            <input class="form-control form-control-lg form-control-borderless" type="search" placeholder="Cerca cliente" asp-for="@Model.SrcParametro">
+        </div>
+        <!--end of col-->
+        <div class="col-auto">
+            <button class="btn btn-lg btn-primary" type="submit">
+                <i class="bi bi-search"></i>
+            </button>
+        </div>
+        <!--end of col-->
+    </div>
+</form>
+<div class="col-sm-3"></div>
+<div class="col-sm-3">
+        <a style="width:100%;
+              height: 100%;
+              display: flex;
+              align-items: center;
+              justify-content: center;" class=" col-sm-3" asp-page-handler="AddNew">
+            <button class="btn btn-lg btn-primary" type="submit">
+                Aggiungi nuovo
+                <i class="bi bi-person-fill-add"></i>
+            </button>
+        </a>
+</div>
+
+</div>
+
+<br><br>
+
+<td class="px-4">
+
+        @if(Model.Customers.Count > 0)
+        {
+            <td class="table-wrapper">
+                <!--Table-->
+                <table class="table table-hover mb-0">
+
+                    <!--Table head-->
+                    <thead>
+                        <tr>
+                            <th class="th-lg">
+                                <a>
+                                    Nome
+                                    <i class="fas fa-sort ml-1"></i>
+                                </a>
+                            </th>
+                            <th class="th-lg">
+                                <a href="">
+                                    Email
+                                    <i class="fas fa-sort ml-1"></i>
+                                </a>
+                            </th>
+                            <th class="th-lg">
+                                <a href="">
+                                    Telefono
+                                    <i class="fas fa-sort ml-1"></i>
+                                </a>
+                            </th>
+                            <th class="th-lg">
+                                <a href="">
+                                    Indirizzo
+                                    <i class="fas fa-sort ml-1"></i>
+                                </a>
+                            </th>
+                            <th class="th-lg">
+                                <a href="">
+                                    Città
+                                    <i class="fas fa-sort ml-1"></i>
+                                </a>
+                            </th>
+                            <th class="th-lg">
+                                <a href="">
+                                    Zipcode
+                                    <i class="fas fa-sort ml-1"></i>
+                                </a>
+                            </th>
+                        </tr>
+                    </thead>
+                    <!--Table head-->
+                    <!--Table body-->
+                    <tbody>
+                        @foreach (var item in Model.Customers)
+                        {
+                            <tr>
+                                @{
+                                    string s = item.FirstName + " " + item.LastName;
+                                }
+                                <td>@item.FirstName @item.LastName</td>
+                                <td>@item.Email</td>
+                                <td>@item.Phone</td>
+                                <td>@item.Street</td>
+                                <td>@item.City, @item.State</td>
+                                <td>@item.ZipCode</td>
+                                <td class="col-auto" >
+                                    <a asp-page-handler="Delete" asp-route-id="@item.Id">
+                                        <button class="btn btn-lg btn-danger" type="submit">
+                                            <i class="bi bi-trash-fill"></i>
+                                        </button>
+                                    </a>                                    
+                                </td>
+                                <td class="col-auto">
+                            <a asp-page-handler="Edit" asp-route-id="@item.Id">
+                                        <button class="btn btn-lg btn-primary" type="submit">
+                                                    <i class="bi bi-pencil-square"></i>
+                                        </button>
+                                    </a>                                    
+                                </td>
+                            </tr>
+                            
+                        }
+
+                    </tbody>
+                    <!--Table body-->
+                </table>
+                <!--Table-->
+            </td>
+        }
+        else
+        {
+            <div class="py-5 text-center">I dati non soddisfano i criteri di ricerca</div>
+        }
+
+

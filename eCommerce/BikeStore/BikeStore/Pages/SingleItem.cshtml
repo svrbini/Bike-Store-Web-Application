@@ -1,0 +1,30 @@
+﻿@page
+@model BikeStore.Pages.SingleItemModel
+@{
+}
+
+
+<div class="container px-4 py-5 h-80vh d-flex align-items-center">
+    <div class="row align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6 d-block m-auto">
+            <img width="700" height="auto" class="card-img-top img-fluid d-block m-auto" src=@Model.Item.ImgLink>
+        </div>
+        <div class="col-lg-1"></div>
+        <div class="col-lg-5 text-start">
+            <h2>@Model.Item.Brand</h2>
+            <hr>
+            <h1 class="display-5 fw-bold lh-1 mb-3 ">@Model.Item.GetShortName()</h1>
+            <h2 class="card-title pricing-card-title text-muted fw-light ">@Model.Item.Price €</h2>
+            <div class="lead mt-4">
+                <p class="">Type: @Model.Item.Category
+                    <br >
+                Release Date: @Model.Item.Year
+                <br >
+                In Stock: @Model.Item.InStock</p>
+            </div>
+            <div class="d-grid gap-2 d-md-flex justify-content-center my-5">
+                <form method="post" asp-page-handler="AddToCart" asp-route-id="@Model.Item.Id"> <button type="submit" class="button-ridr btn btn-lg px-4 me-md-2">Add to cart</button></form>
+            </div>
+        </div>
+    </div>
+</div>
