@@ -1,0 +1,293 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\RAZOR\\eCommerce\\BikeStore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7EB4386A-FA84-48EB-B626-91D474C3BFB3}|BikeStore\\BikeStore.csproj|e:\\razor\\ecommerce\\bikestore\\bikestore\\pages\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7EB4386A-FA84-48EB-B626-91D474C3BFB3}|BikeStore\\BikeStore.csproj|solutionrelative:bikestore\\pages\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EB4386A-FA84-48EB-B626-91D474C3BFB3}|BikeStore\\BikeStore.csproj|e:\\razor\\ecommerce\\bikestore\\bikestore\\pages\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EB4386A-FA84-48EB-B626-91D474C3BFB3}|BikeStore\\BikeStore.csproj|solutionrelative:bikestore\\pages\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EB4386A-FA84-48EB-B626-91D474C3BFB3}|BikeStore\\BikeStore.csproj|e:\\razor\\ecommerce\\bikestore\\bikestore\\pages\\oldbs\\customers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7EB4386A-FA84-48EB-B626-91D474C3BFB3}|BikeStore\\BikeStore.csproj|solutionrelative:bikestore\\pages\\oldbs\\customers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EB4386A-FA84-48EB-B626-91D474C3BFB3}|BikeStore\\BikeStore.csproj|e:\\razor\\ecommerce\\bikestore\\bikestore\\pages\\cart.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EB4386A-FA84-48EB-B626-91D474C3BFB3}|BikeStore\\BikeStore.csproj|solutionrelative:bikestore\\pages\\cart.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EB4386A-FA84-48EB-B626-91D474C3BFB3}|BikeStore\\BikeStore.csproj|e:\\razor\\ecommerce\\bikestore\\bikestore\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EB4386A-FA84-48EB-B626-91D474C3BFB3}|BikeStore\\BikeStore.csproj|solutionrelative:bikestore\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EB4386A-FA84-48EB-B626-91D474C3BFB3}|BikeStore\\BikeStore.csproj|e:\\razor\\ecommerce\\bikestore\\bikestore\\pages\\oldbs\\customers.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EB4386A-FA84-48EB-B626-91D474C3BFB3}|BikeStore\\BikeStore.csproj|solutionrelative:bikestore\\pages\\oldbs\\customers.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EB4386A-FA84-48EB-B626-91D474C3BFB3}|BikeStore\\BikeStore.csproj|e:\\razor\\ecommerce\\bikestore\\bikestore\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7EB4386A-FA84-48EB-B626-91D474C3BFB3}|BikeStore\\BikeStore.csproj|solutionrelative:bikestore\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EB4386A-FA84-48EB-B626-91D474C3BFB3}|BikeStore\\BikeStore.csproj|e:\\razor\\ecommerce\\bikestore\\bikestore\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7EB4386A-FA84-48EB-B626-91D474C3BFB3}|BikeStore\\BikeStore.csproj|solutionrelative:bikestore\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EB4386A-FA84-48EB-B626-91D474C3BFB3}|BikeStore\\BikeStore.csproj|e:\\razor\\ecommerce\\bikestore\\bikestore\\pages\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7EB4386A-FA84-48EB-B626-91D474C3BFB3}|BikeStore\\BikeStore.csproj|solutionrelative:bikestore\\pages\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EB4386A-FA84-48EB-B626-91D474C3BFB3}|BikeStore\\BikeStore.csproj|e:\\razor\\ecommerce\\bikestore\\bikestore\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EB4386A-FA84-48EB-B626-91D474C3BFB3}|BikeStore\\BikeStore.csproj|solutionrelative:bikestore\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EB4386A-FA84-48EB-B626-91D474C3BFB3}|BikeStore\\BikeStore.csproj|e:\\razor\\ecommerce\\bikestore\\bikestore\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EB4386A-FA84-48EB-B626-91D474C3BFB3}|BikeStore\\BikeStore.csproj|solutionrelative:bikestore\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EB4386A-FA84-48EB-B626-91D474C3BFB3}|BikeStore\\BikeStore.csproj|e:\\razor\\ecommerce\\bikestore\\bikestore\\models\\cartremoveitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EB4386A-FA84-48EB-B626-91D474C3BFB3}|BikeStore\\BikeStore.csproj|solutionrelative:bikestore\\models\\cartremoveitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EB4386A-FA84-48EB-B626-91D474C3BFB3}|BikeStore\\BikeStore.csproj|e:\\razor\\ecommerce\\bikestore\\bikestore\\pages\\productspage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7EB4386A-FA84-48EB-B626-91D474C3BFB3}|BikeStore\\BikeStore.csproj|solutionrelative:bikestore\\pages\\productspage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EB4386A-FA84-48EB-B626-91D474C3BFB3}|BikeStore\\BikeStore.csproj|e:\\razor\\ecommerce\\bikestore\\bikestore\\pages\\productspage.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EB4386A-FA84-48EB-B626-91D474C3BFB3}|BikeStore\\BikeStore.csproj|solutionrelative:bikestore\\pages\\productspage.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EB4386A-FA84-48EB-B626-91D474C3BFB3}|BikeStore\\BikeStore.csproj|e:\\razor\\ecommerce\\bikestore\\bikestore\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EB4386A-FA84-48EB-B626-91D474C3BFB3}|BikeStore\\BikeStore.csproj|solutionrelative:bikestore\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EB4386A-FA84-48EB-B626-91D474C3BFB3}|BikeStore\\BikeStore.csproj|e:\\razor\\ecommerce\\bikestore\\bikestore\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EB4386A-FA84-48EB-B626-91D474C3BFB3}|BikeStore\\BikeStore.csproj|solutionrelative:bikestore\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Cart.cshtml.cs",
+              "DocumentMoniker": "E:\\RAZOR\\eCommerce\\BikeStore\\BikeStore\\Pages\\Cart.cshtml.cs",
+              "RelativeDocumentMoniker": "BikeStore\\Pages\\Cart.cshtml.cs",
+              "ToolTip": "E:\\RAZOR\\eCommerce\\BikeStore\\BikeStore\\Pages\\Cart.cshtml.cs",
+              "RelativeToolTip": "BikeStore\\Pages\\Cart.cshtml.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAUwE4AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T20:32:36.898Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\RAZOR\\eCommerce\\BikeStore\\BikeStore\\Pages\\Edit.cshtml",
+              "RelativeDocumentMoniker": "BikeStore\\Pages\\Edit.cshtml",
+              "ToolTip": "E:\\RAZOR\\eCommerce\\BikeStore\\BikeStore\\Pages\\Edit.cshtml",
+              "RelativeToolTip": "BikeStore\\Pages\\Edit.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAABuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-31T22:02:59.446Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml.cs",
+              "DocumentMoniker": "E:\\RAZOR\\eCommerce\\BikeStore\\BikeStore\\Pages\\Edit.cshtml.cs",
+              "RelativeDocumentMoniker": "BikeStore\\Pages\\Edit.cshtml.cs",
+              "ToolTip": "E:\\RAZOR\\eCommerce\\BikeStore\\BikeStore\\Pages\\Edit.cshtml.cs",
+              "RelativeToolTip": "BikeStore\\Pages\\Edit.cshtml.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAFAAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T22:15:59.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\RAZOR\\eCommerce\\BikeStore\\BikeStore\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "BikeStore\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\RAZOR\\eCommerce\\BikeStore\\BikeStore\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "BikeStore\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAC8AAAB+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-31T22:04:14.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Customers.cshtml.cs",
+              "DocumentMoniker": "E:\\RAZOR\\eCommerce\\BikeStore\\BikeStore\\Pages\\oldbs\\Customers.cshtml.cs",
+              "RelativeDocumentMoniker": "BikeStore\\Pages\\oldbs\\Customers.cshtml.cs",
+              "ToolTip": "E:\\RAZOR\\eCommerce\\BikeStore\\BikeStore\\Pages\\oldbs\\Customers.cshtml.cs",
+              "RelativeToolTip": "BikeStore\\Pages\\oldbs\\Customers.cshtml.cs",
+              "ViewState": "AQIAAHgAAAAAAAAAAAAAAI8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T22:03:57.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Customers.cshtml",
+              "DocumentMoniker": "E:\\RAZOR\\eCommerce\\BikeStore\\BikeStore\\Pages\\oldbs\\Customers.cshtml",
+              "RelativeDocumentMoniker": "BikeStore\\Pages\\oldbs\\Customers.cshtml",
+              "ToolTip": "E:\\RAZOR\\eCommerce\\BikeStore\\BikeStore\\Pages\\oldbs\\Customers.cshtml",
+              "RelativeToolTip": "BikeStore\\Pages\\oldbs\\Customers.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACkAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-31T22:03:50.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Product.cs",
+              "DocumentMoniker": "E:\\RAZOR\\eCommerce\\BikeStore\\BikeStore\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "BikeStore\\Models\\Product.cs",
+              "ToolTip": "E:\\RAZOR\\eCommerce\\BikeStore\\BikeStore\\Models\\Product.cs",
+              "RelativeToolTip": "BikeStore\\Models\\Product.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAAkAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T21:54:27.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Cart.cshtml",
+              "DocumentMoniker": "E:\\RAZOR\\eCommerce\\BikeStore\\BikeStore\\Pages\\Cart.cshtml",
+              "RelativeDocumentMoniker": "BikeStore\\Pages\\Cart.cshtml",
+              "ToolTip": "E:\\RAZOR\\eCommerce\\BikeStore\\BikeStore\\Pages\\Cart.cshtml",
+              "RelativeToolTip": "BikeStore\\Pages\\Cart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-18T20:32:35.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "E:\\RAZOR\\eCommerce\\BikeStore\\BikeStore\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "BikeStore\\Pages\\Index.cshtml.cs",
+              "ToolTip": "E:\\RAZOR\\eCommerce\\BikeStore\\BikeStore\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "BikeStore\\Pages\\Index.cshtml.cs",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAAAIAAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T21:49:51.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\RAZOR\\eCommerce\\BikeStore\\BikeStore\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "BikeStore\\Pages\\Index.cshtml",
+              "ToolTip": "E:\\RAZOR\\eCommerce\\BikeStore\\BikeStore\\Pages\\Index.cshtml",
+              "RelativeToolTip": "BikeStore\\Pages\\Index.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-31T21:49:50.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CartRemoveItem.cs",
+              "DocumentMoniker": "E:\\RAZOR\\eCommerce\\BikeStore\\BikeStore\\Models\\CartRemoveItem.cs",
+              "RelativeDocumentMoniker": "BikeStore\\Models\\CartRemoveItem.cs",
+              "ToolTip": "E:\\RAZOR\\eCommerce\\BikeStore\\BikeStore\\Models\\CartRemoveItem.cs",
+              "RelativeToolTip": "BikeStore\\Models\\CartRemoveItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T11:48:35.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "E:\\RAZOR\\eCommerce\\BikeStore\\BikeStore\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "BikeStore\\Models\\CartItem.cs",
+              "ToolTip": "E:\\RAZOR\\eCommerce\\BikeStore\\BikeStore\\Models\\CartItem.cs",
+              "RelativeToolTip": "BikeStore\\Models\\CartItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T11:25:15.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Order.cs",
+              "DocumentMoniker": "E:\\RAZOR\\eCommerce\\BikeStore\\BikeStore\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "BikeStore\\Models\\Order.cs",
+              "ToolTip": "E:\\RAZOR\\eCommerce\\BikeStore\\BikeStore\\Models\\Order.cs",
+              "RelativeToolTip": "BikeStore\\Models\\Order.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T17:27:36.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "E:\\RAZOR\\eCommerce\\BikeStore\\BikeStore\\Models\\Cart.cs",
+              "RelativeDocumentMoniker": "BikeStore\\Models\\Cart.cs",
+              "ToolTip": "E:\\RAZOR\\eCommerce\\BikeStore\\BikeStore\\Models\\Cart.cs",
+              "RelativeToolTip": "BikeStore\\Models\\Cart.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAAGgAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T11:58:40.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProductsPage.cshtml",
+              "DocumentMoniker": "E:\\RAZOR\\eCommerce\\BikeStore\\BikeStore\\Pages\\ProductsPage.cshtml",
+              "RelativeDocumentMoniker": "BikeStore\\Pages\\ProductsPage.cshtml",
+              "ToolTip": "E:\\RAZOR\\eCommerce\\BikeStore\\BikeStore\\Pages\\ProductsPage.cshtml",
+              "RelativeToolTip": "BikeStore\\Pages\\ProductsPage.cshtml",
+              "ViewState": "AQIAAI0AAAAAAAAAAAAAAJYAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-12T17:24:22.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProductsPage.cshtml.cs",
+              "DocumentMoniker": "E:\\RAZOR\\eCommerce\\BikeStore\\BikeStore\\Pages\\ProductsPage.cshtml.cs",
+              "RelativeDocumentMoniker": "BikeStore\\Pages\\ProductsPage.cshtml.cs",
+              "ToolTip": "E:\\RAZOR\\eCommerce\\BikeStore\\BikeStore\\Pages\\ProductsPage.cshtml.cs",
+              "RelativeToolTip": "BikeStore\\Pages\\ProductsPage.cshtml.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAEoAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T17:24:58.153Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
