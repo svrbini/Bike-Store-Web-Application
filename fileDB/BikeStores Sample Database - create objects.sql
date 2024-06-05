@@ -111,11 +111,6 @@ ALTER TABLE customers ADD password nvarchar(100);
 
 ALTER TABLE customers DROP COLUMN password
 
-select * from customers
-
-select * from order_items
-
-INSERT INTO order_items(order_id, item_id, product_id, quantity, list_price, discount)
-VALUES ()
+SELECT * from customers
 */
 
